@@ -61,6 +61,16 @@
             {
                 Console.WriteLine(book);
             }
+            //answer 8
+            string[] books1 = { "clean code", "Refactoring", "the pragmatic" };
+            for (int r = 0; r < books1.Length; r++)
+            {
+                if (books1[r] == "Refactoring")
+                {
+                    break;
+                }
+                Console.WriteLine(books1[r]);
+            }
 
         }
   
