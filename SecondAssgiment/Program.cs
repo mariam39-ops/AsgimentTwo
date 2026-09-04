@@ -30,6 +30,16 @@
                 default:
                     Console.WriteLine("Never heard of it");
                     break;
-            }      }
+          
+            
+            
+            }
+            //answer 3
+            string sizeLabel = Pages > 300 ? "Long book" : "short book";
+        }
+  
+
+
+
     }
 }
