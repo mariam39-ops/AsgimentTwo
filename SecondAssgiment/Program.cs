@@ -56,6 +56,11 @@
                 Console.WriteLine("Checking book...");
                 y++;
             } while (y <= 3);
+            //answer 7
+            foreach (string book in books)
+            {
+                Console.WriteLine(book);
+            }
 
         }
   
