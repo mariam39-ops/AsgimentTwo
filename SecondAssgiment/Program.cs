@@ -36,6 +36,13 @@
             }
             //answer 3
             string sizeLabel = Pages > 300 ? "Long book" : "short book";
+            //answer 4
+            string[] books = { "clean code", "the pragmatic", "Refactoring" };
+            for (int i = 0; i < books.Length; i++)
+            {
+                Console.WriteLine($"{i + 1}.{books[i]}");
+            }
+
         }
   
 
