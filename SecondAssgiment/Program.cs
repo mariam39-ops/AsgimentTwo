@@ -16,6 +16,20 @@
             {
                 Console.WriteLine("no you can't borrow this book");
             }
-        }
+            //answer 2
+    
+            string title = "Refactoring";
+            switch (title)
+            {
+                case "clean code":
+                    Console.WriteLine("!Great choice");
+                    break;
+                case "Refactoring ":
+                    Console.WriteLine("Nice pick");
+                    break;
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
+            }      }
     }
 }
