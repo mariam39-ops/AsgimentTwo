@@ -49,6 +49,13 @@
                 Console.WriteLine(books[e]);
                 e++;
             }
+            //answer 6
+            int y = 1;
+            do
+            {
+                Console.WriteLine("Checking book...");
+                y++;
+            } while (y <= 3);
 
         }
   
