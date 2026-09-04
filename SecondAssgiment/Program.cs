@@ -71,6 +71,21 @@
                 }
                 Console.WriteLine(books1[r]);
             }
+            //answer 9
+            string[] books2 = { "clean code", "the pragmatic" , "Refactoring" };
+
+            for (int x=0; x<books2.Length; x++)
+            {
+                if (books2[x]== "the pragmatic")
+                {
+                    continue;
+                }
+                Console.WriteLine(books2[x]);
+            }
+
+
+            //anwer 10
+
 
         }
   
