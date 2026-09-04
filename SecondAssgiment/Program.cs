@@ -42,6 +42,13 @@
             {
                 Console.WriteLine($"{i + 1}.{books[i]}");
             }
+            //answer 5
+            int e = 0;
+            while (e < books.Length)
+            {
+                Console.WriteLine(books[e]);
+                e++;
+            }
 
         }
   
