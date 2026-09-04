@@ -81,11 +81,22 @@
                     continue;
                 }
                 Console.WriteLine(books2[x]);
+              
+
             }
 
+            //answer 10
+            void PrintFirstBook()
+            {
+               
+                if(books2.Length==0)
+                {
+                    return;
+                }
+                Console.WriteLine(books2[0]);
+            }
 
-            //anwer 10
-
+        
 
         }
   
